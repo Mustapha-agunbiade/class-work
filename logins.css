@@ -1,0 +1,51 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.form-container{
+    width: 600px;
+    box-shadow: 10px 10px 10px 10px green;
+}
+
+.form-content{
+    padding: 70px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: greenyellow;
+    text-transform: capitalize;
+}
+
+form{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+input{
+    width: 360px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#sign-up{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: ghostwhite;
+}

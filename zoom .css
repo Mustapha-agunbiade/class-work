@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    background-color: #279EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    width: 500px;    
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.main{
+    color: white;
+    background-color: blue;
+}
+
+footer{
+    margin-top: auto;
+}

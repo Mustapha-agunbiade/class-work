@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav2{
+    margin: 10px;
+
+}
+#btn-container{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    text-overflow: inherit;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #4477CE;
+    border-radius: 3px;
+    border: none;
+}
